@@ -1,5 +1,7 @@
 // your code goes here
-const themeToggleButton = document.getElementById('theme-toggle');
-themeToggleButton.addEventListener('click', () => {
+
+// your code goes here
+const themeButton = document.getElementById('theme');
+themeButton.addEventListener('click', () => {
     document.body.classList.toggle('dark');
 });
